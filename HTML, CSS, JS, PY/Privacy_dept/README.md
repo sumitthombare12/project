@@ -30,6 +30,11 @@
 <ol>
     <li>Click on three dots(...)</li>
     <li>New instance<li>Connection: New Connection, Username: root, password: ,Hostname: localhost, port:3306, Type: MySQL</li></li>
+    <li>Apply and re-open</li>
+    <li>Type password: root</li>
+    <li>After opened it click on Restore</li>
+    <li>Then in restore open backup</li>
+    <li>select database sql file(Privacy_dept 20251122 2104.sql)</li>
 </ol>
 
 ## Run Program
