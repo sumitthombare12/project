@@ -1,0 +1,40 @@
+﻿Sub_Question_Service_Type,Financial_Payment,Government_Identity,Core_Online_Accounts,Social_Media_Professional,Ecommerce_Shopping,Healthcare_Wellness,Utilities_Home_Services,Travel_Transpor_Events,Education_Job_Search,Entertainment_Gaming,Other_Specialized
+Full Legal Name,0,0,-5,-25,-10,-5,-10,-5,-15,-30,-20
+Legal Phone Number,0,0,-10,-30,-10,0,-5,0,-5,-30,-20
+Home Address,0,0,-10,-30,0,-5,0,-5,-20,-30,-25
+"Government ID(Aadhaar,PAN,etc.)",0,0,-40,-50,-20,-10,-5,-5,-30,-50,-40
+"Financial Details (Credit Card, Bank Info)",0,0,-15,-40,-15,-10,-5,-10,-20,-30,-25
+Yes (2FA Enabled),40,40,35,30,20,25,15,15,20,10,15
+No (2FA Not Enabled),-50,-50,-40,-35,-25,-30,-20,-20,-25,-15,-20
+Don't Know / Not Offered,0,0,-20,-15,-10,-15,-8,-8,-10,-5,-8
+High Security,20,20,20,15,15,15,10,10,10,10,10
+Medium Security,-10,-10,-5,-5,-5,0,0,0,-5,-5,-5
+Low Security,-40,-40,-35,-30,-25,-20,-15,-15,-20,-20,-20
+Very Low Security,-60,-60,-55,-50,-45,-40,-30,-30,-35,-30,-30
+Day / Week,15,5,20,10,5,5,5,5,5,5,5
+Monthly,10,5,5,5,0,0,5,0,0,0,0
+Yearly,-10,0,-20,-10,-10,0,0,-5,-10,-15,-10
+Forgot Account,-50,-25,-50,-30,-25,-20,-15,-20,-25,-30,-20
+Allow All the Time,-20,-20,-25,-50,-30,-10,-15,-20,-20,-50,-30
+Only While Using,5,0,0,-10,0,5,5,10,0,-15,-5
+Don't Allow,15,10,15,30,20,10,10,20,15,30,20
+Read Carefully,15,10,20,30,15,25,10,10,15,25,25
+Skim for Keys,5,5,10,15,5,10,5,5,5,10,10
+Don't Read,-10,-5,-15,-30,-10,-20,-5,-5,-10,-25,-20
+Password Manager,25,25,25,20,15,20,15,15,15,15,15
+Browser Saves,10,10,15,10,10,10,10,10,10,10,5
+Memory,-20,-20,-15,-15,-10,-10,-5,-5,-10,-5,-5
+Reuse,-60,-60,-50,-40,-30,-30,-25,-25,-30,-35,-35
+Ignore & Check App,30,30,25,20,15,15,15,15,15,10,10
+Click Link,-60,-60,-50,-40,-30,-30,-25,-25,-30,-25,-25
+Assume Scam,30,30,25,25,20,15,15,20,20,15,15
+Click Link Prize,-60,-60,-50,-40,-30,-25,-25,-30,-35,-30,-25
+Forward to Friends,-65,-65,-55,-60,-40,-30,-30,-40,-45,-40,-35
+Use VPN,25,25,20,15,15,15,10,15,10,10,10
+Connect Directly,-50,-50,-40,-30,-25,-25,-20,-20,-20,-15,-20
+Don't Use,30,30,25,20,20,20,15,15,15,15,15
+"Yes, I've Checked",5,5,15,20,5,10,5,5,20,10,10
+"No, Never Thought To",-5,-5,-10,-20,-5,-10,-5,-5,-20,-10,-10
+Find & Delete,20,15,20,20,15,15,10,10,15,10,10
+Stop Logging In,-50,-30,-40,-30,-25,-20,-15,-15,-25,-25,-20
+Total Positive,230,210,225,210,150,150,115,130,150,130,125
