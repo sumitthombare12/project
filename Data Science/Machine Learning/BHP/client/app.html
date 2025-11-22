@@ -1,0 +1,85 @@
+<html>
+  <head>
+    <title>Banglore Home Price Predict</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+  <head>
+  <body>
+    <header>
+      <h1>Banglore Home Price Prediction</h1>
+    </header>
+    <nav>
+      <h2>=</h2>
+      <div>
+        <a href="*">Buy Home</a>
+        <a href="*">Sell Home</a>
+        <a href="*">Home</a>
+        <a href="*"><img src="https://th.bing.com/th?id=OIP.Z9MPb-mr_Soaz3u-MgNjPQHaHa&w=250&h=250&c=8&rs=1&qlt=30&o=6&dpr=1.3&pid=3.1&rm=2" alt="Please sign in"></a>
+      </div>
+    </nav>
+    <main>
+      <center>
+      <form class="login-page" method="POST">
+        <h2>PREDICT HOME PRICE</h2>
+        <label>Total Square Feet: <input type="number" id="sqft" class="sqft"></label>
+        
+        <br></br>
+        <label>BHK:
+          <label class="bhk">
+            <input type="radio" name='bhk-in' id="bhk1"><span class="bhk-text">1</span>
+          </label>
+          <label class="bhk">
+            <input type="radio" name='bhk-in' id="bhk2"><span class="bhk-text">2</span>
+          </label>
+          <label class="bhk">
+            <input type="radio" name='bhk-in' id="bhk3"><span class="bhk-text">3</span>
+          </label>
+          <label class="bhk">
+            <input type="radio" name='bhk-in' id="bhk4"><span class="bhk-text">4</span>
+          </label>
+          <label class="bhk">
+            <input type="radio" name='bhk-in' id="bhk5"><span class="bhk-text">5</span>
+          </label>
+          <label class="bhk">
+            <input type="radio" name='bhk-in' id="bhk6"><span class="bhk-text">6</span>
+          </label>
+        </label>
+      
+        <br></br>
+        <label>Bath:
+          <label class="bath">
+            <input type="radio" name='bath-in' id="bath1"><span class="bath-text">1</span>
+          </label>
+          <label class="bath">
+            <input type="radio" name='bath-in' id="bath2"><span class="bath-text">2</span>
+          </label>
+          <label class="bath">
+            <input type="radio" name='bath-in' id="bath3"><span class="bath-text">3</span>
+          </label>
+          <label class="bath">
+            <input type="radio" name='bath-in' id="bath4"><span class="bath-text">4</span>
+          </label>
+          <label class="bath">
+            <input type="radio" name='bath-in' id="bath5"><span class="bath-text">5</span>
+          </label>
+          <label class="bath">
+            <input type="radio" name='bath-in' id="bath6"><span class="bath-text">6</span>
+          </label>
+        </label>
+      
+        <br></br>
+        <label>Select City:</label>
+        <select class="option" id="location">
+          <option>Other</option>
+        </select>
+    
+        <br></br><br>
+        <button type="button" onclick="onClickEstimaterPrice()">Predict Price</button>
+  
+      <p class="predicted-price" id="estPrice">00.00 Lakh</p>
+      </form>
+      </center>
+    </main>
+  </body>
+</html>

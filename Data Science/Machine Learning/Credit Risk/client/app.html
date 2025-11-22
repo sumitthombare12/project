@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' href="app.css"></link>
+        <title>Predict Credit Risk</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <header>
+        	<img src="./images/header.png">
+            <h1>Predict Credit Risk</h1>
+            <a href="" class='start_a'>about</a>
+            <a href="">contact</a>
+            <a href="">help</a>
+        </header>
+        <center>
+            <form class="main_page" method="post">
+                <h2>Credit Risk</h2>
+                <div class="label_box">
+                    <label>Age:<br><input type='number' max=100 maxlength=3 id="cst_age" required></label><br></br>
+                    <label>Income:<br><input type="number" id="cst_income" onchange="getPercentIncome()" required></label><br></br>
+                    <label>Home:<br><Select id="homes_list">
+                        <option>Something Wrong</option>
+                    </select></label><br></br>
+                    <label>Intent:<br><Select id="intents_list">
+                        <option>Something Wrong</option>
+                    </select></label><br></br>
+                    <label>Amount:<br><input type="number" id="ln_amount" onchange="getPercentIncome()" required></label><br></br>
+                    <table>
+                        <tr>
+                            <td>Rate:</td>
+                            <td>Employment length:</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="ln_rate" required></td>
+                            <td><input type="number" id="emp_length" required></td>
+                        </tr>
+                    </table><br>
+                    <label>Status:<br><Select id="status_list">
+                        <option value=1>Fully Paid</option>
+                        <option value=0>Current</option>
+                    </select></label><br></br>
+                    <table>
+                        <tr>
+                            <td>Percent Income:</td>
+                            <td>Credit Length:</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="percent_income" readonly></td>
+                            <td><input type="number" id="cred_length" required></td>
+                        </tr>
+                    </table><br>
+                </div>
+                <button type="button" onclick="onClickEstimaterRisk()">Credit Risk</button><br>
+                <p>Default:(Yes, No).</p>
+                <div id="result"><h3 id="result_txt">........</h3></div>
+            </form>
+        </center>
+    </body>
+</html>
