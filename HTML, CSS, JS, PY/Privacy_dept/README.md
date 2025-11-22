@@ -15,7 +15,7 @@
 <li>Set password "root"</li>
 </ul>
 </li>
-<li>In HTML, CSS, JS, PY\Privacy dept\setup\MY_SQL5.5 click on mysql-gui-tools-5.0-r1a-win32.msi</li>
+<li>In MY_SQL5.5 click on mysql-gui-tools-5.0-r1a-win32.msi</li>
 </ol>
 
 ## Setup environment
