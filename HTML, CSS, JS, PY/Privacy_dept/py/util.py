@@ -90,7 +90,7 @@ def sendOTP(emailid, name):
     cursor.execute(sql, values)
 
     try:
-        sender_email = "pandakumfu635@gmail.com"
+        sender_email = "GMAIL"
         receiver_email = str(emailid)
         password = "GMAIL PASSWORD KEY"
 
@@ -254,7 +254,7 @@ def fetch_rank(username):
     row = cursor.fetchall()
 
     cursor = conn.cursor()
-    cursor.execute("select username, full_name, points from user_details order by points desc limit 20;")
+    cursor.execute("select username, full_name, points from user_details order by points desc limit 50;")
     rows = cursor.fetchall()
 
     cursor = conn.cursor()

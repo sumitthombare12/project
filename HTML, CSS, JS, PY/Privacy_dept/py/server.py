@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
 import util
+import webbrowser
 
 app = Flask(__name__)
 dict = {}
@@ -113,4 +114,5 @@ def fetch_rank():
 
 if __name__ == "__main__":
     print("Starting python flask server for Home Price Prediction")
+    webbrowser.open_new_tab("welcome_page.html")
     app.run()

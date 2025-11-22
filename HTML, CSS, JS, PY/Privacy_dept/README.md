@@ -21,7 +21,13 @@
 ## Python setup
 ### In python powershell/ command line
 <ol>
-    <li>pip install Flask( Flask 3.1.0, Werkzeug 3.1.3)</li>
+    <li>pip install Flask</li>
     <li>pip install PyMySQL</li>
     <li>pip install pandas</li>
+</ol>
+
+## Run Program
+<ol>
+    <li>Open PRIVACY_DEPT folder in any IDE like vs code or pycharm that supports flask</li>
+    <li>Then in same folder open server.py and run it</li>
 </ol>
