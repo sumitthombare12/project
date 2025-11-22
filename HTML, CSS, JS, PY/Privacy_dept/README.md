@@ -19,12 +19,9 @@
 </ol>
 
 ## Python setup
-<ul>
-    <li>In python powershell/ command line
-        <ol>
-            <li>pip install Flask( Flask 3.1.0, Werkzeug 3.1.3)</li>
-            <li>pip install PyMySQL</li>
-            <li>pip install pandas</li>
-        </ol>
-    </li>
-    </ul>
+### In python powershell/ command line
+<ol>
+    <li>pip install Flask( Flask 3.1.0, Werkzeug 3.1.3)</li>
+    <li>pip install PyMySQL</li>
+    <li>pip install pandas</li>
+</ol>
