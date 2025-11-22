@@ -7,7 +7,7 @@
 <li>MySQL Tool for 5.0</li>
 </ul>
 
-## Step to setup
+## Step to setup and installation
 <ol>
 <li>Install Anaconda3-2023.09-0-Windows-x86_64 url: https://youtu.be/mg6cMkz9Q0c?si=TJIM5Qvn4diQf8lH</li>
 <li>Download MySQL5.5 using https://drive.google.com/drive/folders/18njSixo9mCDh_RpC16QG-yDoG7y4y_l6?usp=sharing link and download after download click on Setup.exe
@@ -18,12 +18,18 @@
 <li>In HTML, CSS, JS, PY\Privacy dept\setup\MY_SQL5.5 click on mysql-gui-tools-5.0-r1a-win32.msi</li>
 </ol>
 
-## Python setup
-### In python powershell/ command line
+## Setup environment
+### In windows search python powershell/ command line and open it then run below command one by one
 <ol>
     <li>pip install Flask</li>
     <li>pip install PyMySQL</li>
     <li>pip install pandas</li>
+</ol>
+
+### In windows search mySQL Administrator and open it
+<ol>
+    <li>Click on three dots(...)</li>
+    <li>New instance<li>Connection: New Connection, Username: root, password: ,Hostname: localhost, port:3306, Type: MySQL</li></li>
 </ol>
 
 ## Run Program
