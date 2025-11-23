@@ -1,5 +1,6 @@
 document.getElementById("seeMore").addEventListener("click", function(e) {
-    e.preventDefault();
+    window.open("https://www.bing.com/ck/a?!&&p=aab06c89cb3eb4d89410a3b9ff4d2e9379ed2acb7d9da839b1efb20f39fbbaaaJmltdHM9MTc2Mzg1NjAwMA&ptn=3&ver=2&hsh=4&fclid=1d9899ee-f1a1-69c7-03f1-8a23f01368de&psq=government+privacy+and+security&u=a1aHR0cHM6Ly9zdGF0aWMucGliLmdvdi5pbi9Xcml0ZVJlYWREYXRhL3NwZWNpZmljZG9jcy9kb2N1bWVudHMvMjAyNS9ub3YvZG9jMjAyNTExMTc2OTUzMDEucGRm","_blank")
+    /*e.preventDefault();
 
     const data = {
     name: "Sumit",
@@ -17,7 +18,7 @@ document.getElementById("seeMore").addEventListener("click", function(e) {
     .then(result => {
     console.log(result);
     })
-    .catch(error => console.error("Error:", error));
+    .catch(error => console.error("Error:", error));*/
 });
 
 let username = "";
