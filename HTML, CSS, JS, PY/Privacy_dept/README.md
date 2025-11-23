@@ -37,6 +37,13 @@
     <li>select database sql file(Privacy_dept 20251122 2104.sql)</li>
 </ol>
 
+### Setup Gmail account and password
+<ol>
+    <li>Create Password Key: Google accound security setting -> password key -> create key -> copy key</li>
+    <li>Type gmail account</li>
+    <li>Paste key on util.py file in line 95</li>
+</ol>
+
 ## Run Program
 <ol>
     <li>Open PRIVACY_DEPT folder in any IDE like vs code or pycharm that supports flask</li>
