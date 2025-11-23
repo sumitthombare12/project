@@ -37,7 +37,7 @@
     <li>select database sql file(Privacy_dept 20251122 2104.sql)</li>
 </ol>
 
-### Setup Gmail account and password
+### Setup Gmail account and password Key
 <ol>
     <li>Create Password Key: Google accound security setting -> password key -> create key -> copy key</li>
     <li>Type gmail account</li>
